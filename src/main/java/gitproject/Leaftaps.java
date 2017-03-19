@@ -21,8 +21,8 @@ public class Leaftaps
 	driver.findElementByLinkText("CRM/SFA").click();
 	driver.findElementByLinkText("Create Lead").click();
 	driver.findElementById("createLeadForm_companyName").sendKeys("Testleaf");
-	driver.findElementById("createLeadForm_firstName").sendKeys("Test");
-	driver.findElementById("createLeadForm_lastName").sendKeys("leaf");
+	driver.findElementById("createLeadForm_firstName").sendKeys("Leaf");
+	driver.findElementById("createLeadForm_lastName").sendKeys("Taps");
 	driver.findElementByName("submitButton").click();
 	
 	/*Create Account*/
